@@ -22,6 +22,9 @@ badjs-report - 前端错误监控工具
 >badjs 系统使用面向服务的体系架构，各个模块介绍如下
 
 badjs-acceptor - 接入层，使用多进程处理
+
 badjs-mq - 消息队列中心，用于分发给其他系统
+
 badjs-storage - 存储服务，存入mongodb ，并提供查询日志和统计日志的服务
+
 badjs-web - 管理系统，提供用户管理、日志查询和日志统计
