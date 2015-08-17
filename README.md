@@ -34,9 +34,7 @@ badjs-web - 管理系统，提供用户管理、日志查询和日志统计
 > badjs-web/db/create.sql 初始化数据库
 
 配置(project.json)说明
-> 所有"project.debug.json"为本地调试配置
-> 用于区分"开发环境"和"生产环境"
-> 运行开发环境需添加参数 --debug(debug 日志输出) --project(使用测试配置)
+> 所有"project.debug.json"为本地调试配置,用于区分"开发环境"和"生产环境"，运行时候可以添加参数 --debug(debug 日志输出) --project(使用测试配置)
 
 
 
