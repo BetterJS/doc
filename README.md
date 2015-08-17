@@ -30,3 +30,29 @@ badjs-mq - 消息队列中心，用于分发给其他系统
 badjs-storage - 存储服务，存入mongodb ，并提供查询日志和统计日志的服务
 
 badjs-web - 管理系统，提供用户管理、日志查询和日志统计
+
+配置(project.json)说明
+    > 所有 `project.debug.json` 为本地调试配置
+    > 用于区分`开发环境`和`生产环境`
+    > 运行开发环境需添加参数 --debug(debug 日志输出) --project(使用测试配置)
+
+    -- mysql
+        > 配置安装`mysql`的 `服务器ip` `端口` `数据库名` `用户名` 和 `密码`
+        > 同时需导入 badjs-web/db/create.sql 初始化数据库
+        > 注意: 数据库名默认为 badjs, 操作时最好先备份
+        
+    -- mongodb
+        > 配置安装`mongodb` 的 `服务器ip` `端口` `数据库名` `用户名` 和 `密码`
+        > 注意: 数据库名默认为 badjs, 操作时最好先备份
+    
+    -- email
+        > 邮件报表配置
+        > 可配置 `管理系统主页(homepage)` `发送方(from)` `email后缀(emailSuffix)` `报表发送时间(time, 以天为单位)` `报表中排行榜个数(top)` `邮件发送的模块(module)`
+        > 其中 badjs-web/utils/email.js 为邮件发送模块模板
+
+
+##安装要求
+nodejs 12.0+
+zmq 3.0+
+mysql 5.0+
+mongodb 3.0+
