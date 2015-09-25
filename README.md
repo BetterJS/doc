@@ -58,11 +58,11 @@ mongodb 3.0+
 
 1. 安装前面提到的必要环境
 2. 下载各个模块
-- git clone https://github.com/BetterJS/badjs-accepter.git
-- git clone https://github.com/BetterJS/badjs-mq.git
-- git clone https://github.com/BetterJS/badjs-storage.git
-- git clone https://github.com/BetterJS/badjs-web.git
-- git clone https://github.com/BetterJS/badjs-openapi.git
+  - git clone https://github.com/BetterJS/badjs-accepter.git
+  - git clone https://github.com/BetterJS/badjs-mq.git
+  - git clone https://github.com/BetterJS/badjs-storage.git
+  - git clone https://github.com/BetterJS/badjs-web.git
+  - git clone https://github.com/BetterJS/badjs-openapi.git
 3. 各个模块npm install 
 4. 进入 badjs-acceptor 目录， 运行命令 `` node app.js --debug --project `` ，运行成功看到下面的提示:
 ``` cmd
