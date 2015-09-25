@@ -53,3 +53,11 @@ zmq 3.0+
 mysql 5.0+
 
 mongodb 3.0+
+
+## 如何部署
+
+1. 安装前面必要的环境
+2. git clone https://github.com/BetterJS/badjs-accepter.git
+3. git clone https://github.com/BetterJS/badjs-accepter.git
+4. git clone https://github.com/BetterJS/badjs-accepter.git
+5. git clone https://github.com/BetterJS/badjs-accepter.gitgit clone https://github.com/BetterJS/badjs-accepter.git
