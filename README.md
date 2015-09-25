@@ -48,8 +48,8 @@ badjs-openapi - 方便整合现有的第三方系统，例如实时统计和告�
 ##安装要求
 nodejs 12.0+
 
-zmq 3.0+ #1
-> zmq 安装为 
+zmq 3.0+ 
+> zmq 安装为  [#1 ](https://github.com/BetterJS/doc/issues/1)
 
 mysql 5.0+
 
