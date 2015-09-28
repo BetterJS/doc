@@ -71,7 +71,7 @@ pyton 2.7+
 ``` cmd
 start  badjs-accepter,listen 80 ....
 ```
-5.接着进入 badjs-storage , 通过 project.debug.json 文件配置你的mongodb地址 接着运行  `` node app.js --debug --project ``，查看输出的日志有没有错误。
+5. 接着进入 badjs-storage , 通过 project.debug.json 文件配置你的mongodb地址 接着运行  `` node app.js --debug --project ``，查看输出的日志有没有错误。
 6. 接着进入badjs-web 目录, 通过 project.debug.json 文件配置你的mysql地址，然后删除oos 配置， 接着运行  `` node app.js --debug --project`` ,查看输出的日志有没有错误。
 7. 最后进入其他剩下的模块，依次运行 `` node app.js --debug --project``
 8. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
