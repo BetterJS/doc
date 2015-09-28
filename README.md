@@ -49,7 +49,7 @@ badjs-openapi - 方便整合现有的第三方系统，例如实时统计和告�
 nodejs 12.0+
 
 zmq 3.0+ 
-> zmq 安装为  [#1 ](https://github.com/BetterJS/doc/issues/1)
+> zmq 安装疑问  [#1 ](https://github.com/BetterJS/doc/issues/1)
 
 mysql 5.0+
 
@@ -69,16 +69,10 @@ pyton 2.7+
 3. 进入各个模块npm install 
 4. 进入 badjs-acceptor 目录， 运行命令 `` node app.js --debug --project `` ，运行成功看到下面的提示:
 ``` cmd
-start badjs-acceptor success. 
+start  badjs-accepter,listen 80 ....
 ```
-5.接着进入 badjs-storage , 通过 project.debug.json 文件配置你的mongodb地址 接着运行  `` node app.js --debug --project ``，成功看到下面提示:
-``` cmd
-start badjs-storage success.
-```
-6. 接着进入badjs-web 目录, 通过 project.debug.json 文件配置你的mysql地址，然后删除oos 配置， 接着运行  `` node app.js --debug --project`` ,成功看到下面提示：
-``` cmd 
-start badjs-web , listen 8081
-```
+5.接着进入 badjs-storage , 通过 project.debug.json 文件配置你的mongodb地址 接着运行  `` node app.js --debug --project ``，查看输出的日志有没有错误。
+6. 接着进入badjs-web 目录, 通过 project.debug.json 文件配置你的mysql地址，然后删除oos 配置， 接着运行  `` node app.js --debug --project`` ,查看输出的日志有没有错误。
 7. 最后进入其他剩下的模块，依次运行 `` node app.js --debug --project``
 8. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
 9. 线上环境配置，请访问各个模块的页面，查看配置说明。
