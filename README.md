@@ -86,9 +86,9 @@ pyton 2.7+
 3. 申请成功后，点击"申请列表" -> "申请列表" 对自己的业务进行审核通过。
 4. 完成审核，查看 badjs-acceptor 模块的控制台日志会打印如下信息,
 ```
-update project.db ： ....
+update project.db ： 1|7d7faa0abfa343f14f0f36a0945fb7ee
 ```
 表示审核的数据已经同步到 badjs-acceptor
 
 
-**到这里，整个后台的部署已经成功了。接下来即可使用 badjs-report/example 进行测试验证上报。**
+**到这里，整个后台的部署已经成功了。接下来即可使用 badjs-report/example/index.html 进行测试验证上报。**
