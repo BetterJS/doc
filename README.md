@@ -72,5 +72,22 @@ pyton 2.7+
 6. 接着进入badjs-web 目录, 通过 project.debug.json 文件配置你的mysql地址，然后删除oos 配置， 接着运行  `` node app.js --debug --project`` ,查看输出的日志有没有错误。
 7. 最后进入其他剩下的模块，依次运行 `` node app.js --debug --project``
 8. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
-9. 线上环境配置，请访问各个模块的页面，查看配置说明。
+9. 线上环境配置，请访问各个模块的页面的配置说明：
+  - https://github.com/BetterJS/badjs-accepter/blob/master/Readme.md
+  - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
+  - https://github.com/BetterJS/badjs-mq/blob/master/Readme.md
+  - https://github.com/BetterJS/badjs-storage/blob/master/Readme.md
+  - https://github.com/BetterJS/badjs-openapi/blob/master/Readme.md
 
+
+##如何使用
+1. 安装完成后，使用默认的超级帐号 admin/admin 进入
+2. 登录成功后，点击右上角的“我的业务”进入管理界面，点击"申请业务"
+3. 申请成功后，点击"申请列表" -> "申请列表" 对自己的业务进行审核通过。
+4. 完成审核，查看 badjs-acceptor 模块的控制台日志会打印如下信息
+```
+update project.db ： ....
+```
+表示审核的数据已经同步到 badjs-acceptor
+
+5. 整个后台的部署已经成功了。接下来即可使用 badjs-report/example 进行测试验证上报。
