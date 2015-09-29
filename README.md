@@ -40,6 +40,7 @@ badjs-openapi - 方便整合现有的第三方系统，例如实时统计和告�
 > 可以不安装
 
 **类库** 
+
 badjs-openapi-client - 连接 badjs-openapi 的客户端的类库
 > 一般用于接收数据后并处理后，转发给第三方系统
 
