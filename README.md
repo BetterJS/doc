@@ -24,7 +24,6 @@ badjs-report - 前端错误监控工具
 
 **后端**
 
-
 badjs 系统使用面向服务的体系架构，各个模块介绍如下
 
 badjs-acceptor - 接入层，使用多进程处理
@@ -40,6 +39,7 @@ badjs-web - 管理系统，提供用户管理、日志查询和日志统计
 badjs-openapi - 方便整合现有的第三方系统，例如实时统计和告警系统
 > 可以不安装
 
+**类库** 
 badjs-openapi-client - 连接 badjs-openapi 的客户端的类库
 > 一般用于接收数据后并处理后，转发给第三方系统
 
