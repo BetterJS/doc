@@ -96,3 +96,6 @@ update project.db ： 1|7d7faa0abfa343f14f0f36a0945fb7ee
 
 
 **到这里，整个后台的部署已经成功了。接下来即可使用 badjs-report/example/index.html 进行测试验证上报。**
+
+##有谁在用
+![mail.qq.com](https://res.mail.qq.com/zh_CN/htmledition/images/webp/logo/qqmail/qqmail_logo_default_35h206ff1.png)
