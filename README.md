@@ -98,12 +98,21 @@ update project.db ： 1|7d7faa0abfa343f14f0f36a0945fb7ee
 **到这里，整个后台的部署已经成功了。接下来即可使用 badjs-report/example/index.html 进行测试验证上报。**
 
 ##谁在用
-![mail.qq.com](https://res.mail.qq.com/zh_CN/htmledition/images/webp/logo/qqmail/qqmail_logo_default_35h206ff1.png)
+
 ![ke.qq.com](https://cloud.githubusercontent.com/assets/2292731/10385573/5d4c5114-6e7d-11e5-9aed-21c36453c9ee.png)
+
+![mail.qq.com](https://res.mail.qq.com/zh_CN/htmledition/images/webp/logo/qqmail/qqmail_logo_default_35h206ff1.png)
+
 ![image](https://cloud.githubusercontent.com/assets/2292731/10385585/87e76fda-6e7d-11e5-9e33-655d8849ae21.png)
+
 ![image](https://cloud.githubusercontent.com/assets/2292731/10385601/dc15d9ac-6e7d-11e5-82f5-10d984126df6.png)
+
 ![qun.qq.com](http://qplus3.idqqimg.com/qun/portal/img/logo2.png)
+
 ![image](https://cloud.githubusercontent.com/assets/2292731/10385625/2f0bc0ae-6e7e-11e5-871b-28d020e4e326.png)
+
+![image](https://cloud.githubusercontent.com/assets/2292731/10385652/9277ced0-6e7e-11e5-8d05-c5fafbb095b9.png)
+
 
 
 
