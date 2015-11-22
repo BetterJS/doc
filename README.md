@@ -59,7 +59,7 @@ mysql 5.0+
 
 mongodb 3.0+
 
-pyton 2.7+
+pyton 2.7.x
 
 ## 如何部署
 
