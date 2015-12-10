@@ -52,7 +52,7 @@ badjs-openapi-client - 连接 badjs-openapi 的客户端的类库
 ##安装要求
 nodejs 0.12+
 
-zmq 3.2.* 
+zmq 3.2.X
 > zmq 安装疑问  [#1 ](https://github.com/BetterJS/doc/issues/1)
 
 mysql 5.0+
