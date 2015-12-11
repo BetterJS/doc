@@ -72,6 +72,7 @@ pyton 2.7.x
   - git clone https://github.com/BetterJS/badjs-openapi.git
 3. 进入各个模块npm install 
 4. 进入 badjs-acceptor 目录， 运行命令 `` node app.js --debug --project `` ，查看输出的日志有没有错误。
+5. 进入 badjs-mq 目录， 运行命令 `` node app.js --debug --project `` ，查看输出的日志有没有错误。
 5. 接着进入 badjs-storage , 通过 project.debug.json 文件配置你的mongodb地址 接着运行  `` node app.js --debug --project ``，查看输出的日志有没有错误。
 6. 接着进入badjs-web 目录, 通过 project.debug.json 文件配置你的mysql地址，然后删除oos 配置， 接着运行  `` node app.js --debug --project`` ,查看输出的日志有没有错误。
 7. 最后进入其他剩下的模块，依次运行 `` node app.js --debug --project``
