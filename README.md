@@ -59,30 +59,31 @@ mongodb 3.0+
 
 pyton 2.7.x
 
+git 
+
 ## 如何部署
 
 ### 一键部署
-1. git clone https://github.com/BetterJS/badjs-installer.git
-2. 进入到badjs-instaler的目录，运行以下命令
+1. 安装前面提到的必要环境
+2. git clone https://github.com/BetterJS/badjs-installer.git
+3. 进入到badjs-instaler的目录，运行以下命令
   - ```npm run clone```  ， 拉取模块
+  - 
   - ```npm run install``` ， 安装依赖
   - ```npm run start ``` , 启动
-3. 完成启动，就是这么简单。
+4. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
 
-1. 安装前面提到的必要环境
-2. 下载各个模块
+### 线上部署
+1.  拉取以下模块
   - git clone https://github.com/BetterJS/badjs-acceptor.git
   - git clone https://github.com/BetterJS/badjs-mq.git
   - git clone https://github.com/BetterJS/badjs-storage.git
   - git clone https://github.com/BetterJS/badjs-web.git
   - git clone https://github.com/BetterJS/badjs-openapi.git
-3. 进入各个模块npm install 
-4. 进入 badjs-acceptor 目录， 运行命令 `` node app.js --debug --project `` ，查看输出的日志有没有错误。
-5. 进入 badjs-mq 目录， 运行命令 `` node app.js --debug --project `` ，查看输出的日志有没有错误。
-5. 接着进入 badjs-storage , 通过 project.debug.json 文件配置你的mongodb地址 接着运行  `` node app.js --debug --project ``，查看输出的日志有没有错误。
-6. 接着进入badjs-web 目录, 通过 project.debug.json 文件配置你的mysql地址，然后删除oos 配置， 接着运行  `` node app.js --debug --project`` ,查看输出的日志有没有错误。
-8. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
-9. 线上环境配置，请访问各个模块的页面的配置说明：
+2. 进入各个模块 ```npm install ```
+3. 进入各个模块启动， ```node app.js``
+4. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
+5. 线上环境配置，请访问各个模块的页面的配置说明：
   - https://github.com/BetterJS/badjs-acceptor/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-mq/blob/master/Readme.md
