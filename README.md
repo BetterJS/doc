@@ -14,7 +14,7 @@
 
 ##系统架构
 
-![qq 20160103174950](https://cloud.githubusercontent.com/assets/2292731/12078156/6ac42714-b242-11e5-969a-7a64edf328b8.png)
+![image](https://cloud.githubusercontent.com/assets/2292731/12078277/626c6b9a-b246-11e5-9b1e-f2cd18a58623.png)
 
 
 **前端**
