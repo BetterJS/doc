@@ -73,7 +73,7 @@ git
 6. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
 7. 系统如何使用，在http://127.0.0.1:8081/index.html 上会有介绍。
 
-### 线上环境部署
+#### 线上环境部署
 1. 线上环境配置，请访问各个模块的页面的配置说明：
   - https://github.com/BetterJS/badjs-acceptor/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
