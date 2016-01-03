@@ -65,21 +65,20 @@ git
 1. 安装前面提到的必要环境
 2. git clone https://github.com/BetterJS/badjs-installer.git
 3. 进入到badjs-installer的目录，运行 ```npm run clone``` ，拉取各个模块
-  - ```npm run clone```  ， 拉取模块
-  - ```npm run install``` ， 
-4. 运行```npm run install``` ,安装依赖，**这个很容易出现问题**，对于新用户建议进入各个模块进行```npm install```
+4. 运行```npm run install``` ,安装依赖，**这个步骤很容易出现问题** ，对于新用户建议进入各个模块进行```npm install```
   - zmq 编译不通过，请查看 [#1 ](https://github.com/BetterJS/doc/issues/1)
   - phantomjs 安装不成功，请查看  [#8 ](https://github.com/BetterJS/doc/issues/8) 
 5. 进入badjs-web/db ，将里面的 create.sql 导入到 mysql中 
-5. 运行 ```npm run install``` ，启动各个模块
+5. 运行 ```npm run start``` ，启动各个模块
 6. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
 7. 系统如何使用，在http://127.0.0.1:8081/index.html 上会有介绍。
-8. 线上环境配置，请访问各个模块的页面的配置说明：
+
+### 线上环境部署
+1. 线上环境配置，请访问各个模块的页面的配置说明：
   - https://github.com/BetterJS/badjs-acceptor/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-mq/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-storage/blob/master/Readme.md
-
 
 ##如何使用
 1. 安装完成后，使用默认的超级帐号 admin/admin 进入
