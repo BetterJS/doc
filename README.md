@@ -85,11 +85,8 @@ git 命令，用于拉取各个系统模块
 2. 安装完成后，使用默认的超级帐号 admin/admin 进入
 3. 登录成功后，点击右上角的“我的业务”进入管理界面，点击"申请业务"
 4. 申请成功后，点击"管理" -> "申请列表" 对自己的业务进行审核通过。
-5. 完成审核，查看 badjs-acceptor 模块的控制台日志会打印如下信息,
-```
-update project.db ： 1|7d7faa0abfa343f14f0f36a0945fb7ee
-```
-表示审核的数据已经同步到 badjs-acceptor
+5. 完成审核，系统会讲业务信息下发给badjs-accpeor , badjs-mq
+  - 查看下发是否成功，可进入 badjs-acceptor 查看 project.db
 
 
 **到这里，整个后台的部署已经成功了。接下来即可使用 badjs-report/example/index.html 进行测试验证上报。**
