@@ -59,7 +59,7 @@ mongodb 3.0+
 
 pyton 2.7.x
 
-git 
+git 命令，用于拉取各个系统模块
 
 ## 部署
 1. 安装前面提到的必要环境
@@ -79,6 +79,7 @@ git
   - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-mq/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-storage/blob/master/Readme.md
+
 
 ##如何使用
 1. 安装完成后，使用默认的超级帐号 admin/admin 进入
