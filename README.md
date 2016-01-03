@@ -61,36 +61,24 @@ pyton 2.7.x
 
 git 
 
-## 如何部署
-
-### 一键部署
+## 部署
 1. 安装前面提到的必要环境
 2. git clone https://github.com/BetterJS/badjs-installer.git
 3. 进入到badjs-installer的目录，运行 ```npm run clone``` ，拉取各个模块
   - ```npm run clone```  ， 拉取模块
   - ```npm run install``` ， 
-4. 运行```npm run install``` ,安装依赖，这个很容易出现问题
+4. 运行```npm run install``` ,安装依赖，**这个很容易出现问题**，对于新用户建议进入各个模块进行```npm install```
   - zmq 编译不通过，请查看 [#1 ](https://github.com/BetterJS/doc/issues/1)
   - phantomjs 安装不成功，请查看  [#8 ](https://github.com/BetterJS/doc/issues/8) 
+5. 进入badjs-web/db ，将里面的 create.sql 导入到 mysql中 
 5. 运行 ```npm run install``` ，启动各个模块
 6. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
-
-### 线上部署
-1.  拉取以下模块
-  - git clone https://github.com/BetterJS/badjs-acceptor.git
-  - git clone https://github.com/BetterJS/badjs-mq.git
-  - git clone https://github.com/BetterJS/badjs-storage.git
-  - git clone https://github.com/BetterJS/badjs-web.git
-  - git clone https://github.com/BetterJS/badjs-openapi.git
-2. 进入各个模块 ```npm install ```
-3. 进入各个模块启动， ```node app.js``
-4. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
-5. 线上环境配置，请访问各个模块的页面的配置说明：
+7. 系统如何使用，在http://127.0.0.1:8081/index.html 上会有介绍。
+8. 线上环境配置，请访问各个模块的页面的配置说明：
   - https://github.com/BetterJS/badjs-acceptor/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-mq/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-storage/blob/master/Readme.md
-  - https://github.com/BetterJS/badjs-openapi/blob/master/Readme.md
 
 
 ##如何使用
@@ -105,6 +93,7 @@ update project.db ： 1|7d7faa0abfa343f14f0f36a0945fb7ee
 
 
 **到这里，整个后台的部署已经成功了。接下来即可使用 badjs-report/example/index.html 进行测试验证上报。**
+
 
 ##谁在用
 
