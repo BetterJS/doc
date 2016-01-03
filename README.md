@@ -14,7 +14,7 @@
 
 ##系统架构
 
-![image](https://cloud.githubusercontent.com/assets/2292731/12078277/626c6b9a-b246-11e5-9b1e-f2cd18a58623.png)
+![image](https://cloud.githubusercontent.com/assets/2292731/12078283/a2c66178-b246-11e5-8c13-297138cc7d91.png)
 
 
 **前端**
@@ -39,7 +39,7 @@ badjs-web - 管理系统，提供用户管理、日志查询和日志统计
 
 **类库** 
 
-badjs-openapi-client - 连接 badjs-openapi 的客户端的类库
+badjs-openapi-client - 连接 badjs-mq 的客户端的类库
 > 一般用于接收数据后并处理后，转发给第三方系统
 
 配置(project.json)说明
