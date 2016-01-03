@@ -73,11 +73,17 @@ git 命令，用于拉取各个系统模块
 6. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
 
 #### 线上环境部署
-1. 线上环境配置，请访问各个模块的页面的配置说明：
+1. 拉取各个模块
+  - git clone https://github.com/BetterJS/badjs-acceptor.git
+  - git clone https://github.com/BetterJS/badjs-mq.git
+  - git clone https://github.com/BetterJS/badjs-storage.git
+  - git clone https://github.com/BetterJS/badjs-web.git
+2. 线上环境配置，请访问各个模块的页面的配置说明：
   - https://github.com/BetterJS/badjs-acceptor/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-mq/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-storage/blob/master/Readme.md
+3. 用 forever 或 nohub 启动各个模块
 
 
 ##如何使用
