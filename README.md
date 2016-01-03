@@ -65,7 +65,7 @@ pyton 2.7.x
 
 1. 安装前面提到的必要环境
 2. 下载各个模块
-  - git clone https://github.com/BetterJS/badjs-accepter.git
+  - git clone https://github.com/BetterJS/badjs-acceptor.git
   - git clone https://github.com/BetterJS/badjs-mq.git
   - git clone https://github.com/BetterJS/badjs-storage.git
   - git clone https://github.com/BetterJS/badjs-web.git
@@ -77,7 +77,7 @@ pyton 2.7.x
 6. 接着进入badjs-web 目录, 通过 project.debug.json 文件配置你的mysql地址，然后删除oos 配置， 接着运行  `` node app.js --debug --project`` ,查看输出的日志有没有错误。
 8. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
 9. 线上环境配置，请访问各个模块的页面的配置说明：
-  - https://github.com/BetterJS/badjs-accepter/blob/master/Readme.md
+  - https://github.com/BetterJS/badjs-acceptor/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-mq/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-storage/blob/master/Readme.md
