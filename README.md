@@ -66,12 +66,14 @@ git
 ### 一键部署
 1. 安装前面提到的必要环境
 2. git clone https://github.com/BetterJS/badjs-installer.git
-3. 进入到badjs-instaler的目录，运行以下命令
+3. 进入到badjs-installer的目录，运行 ```npm run clone``` ，拉取各个模块
   - ```npm run clone```  ， 拉取模块
-  - 
-  - ```npm run install``` ， 安装依赖
-  - ```npm run start ``` , 启动
-4. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
+  - ```npm run install``` ， 
+4. 运行```npm run install``` ,安装依赖，这个很容易出现问题
+  - zmq 编译不通过，请查看 [#1 ](https://github.com/BetterJS/doc/issues/1)
+  - phantomjs 安装不成功，请查看  [#8 ](https://github.com/BetterJS/doc/issues/8) 
+5. 运行 ```npm run install``` ，启动各个模块
+6. 访问 http://127.0.0.1:8081/index.html ，进入页面确定启动成功。
 
 ### 线上部署
 1.  拉取以下模块
