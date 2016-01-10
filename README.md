@@ -62,6 +62,7 @@ pyton 2.7.x
 git 命令，用于拉取各个系统模块
 
 ## 部署
+#### 开发环境部署
 1. 安装前面提到的必要环境
 2. git clone https://github.com/BetterJS/badjs-installer.git
 3. 进入到badjs-installer的目录，运行 ```npm run clone``` ，拉取各个模块
