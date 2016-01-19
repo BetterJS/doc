@@ -14,7 +14,7 @@
 
 ##系统架构
 
-![image](https://cloud.githubusercontent.com/assets/2292731/12078283/a2c66178-b246-11e5-8c13-297138cc7d91.png)
+![image](https://cloud.githubusercontent.com/assets/2292731/12427248/28530902-bf19-11e5-9884-551dc9442326.png)
 
 
 **前端**
