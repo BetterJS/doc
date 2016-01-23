@@ -115,6 +115,7 @@ git 命令，用于拉取各个系统模块
 
 ![image](https://cloud.githubusercontent.com/assets/2292731/10385652/9277ced0-6e7e-11e5-8d05-c5fafbb095b9.png)
 
+![image](https://cloud.githubusercontent.com/assets/2292731/12528051/eb5f622a-c1c5-11e5-9716-d3f75d93668b.png)
 
 
 
