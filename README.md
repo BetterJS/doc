@@ -99,7 +99,7 @@ git 命令，用于拉取各个系统模块
 
 
 ## 怎么上报
-1. 关于上报的任何问题，可以点击下面的连接进行查看
+1. 关于上报的任何问题，可以点击下面的链接进行查看
   - [report 介绍](https://github.com/BetterJS/badjs-report)
   - [report 问题列表](https://github.com/BetterJS/badjs-report/issues)
 
