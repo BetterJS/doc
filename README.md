@@ -98,6 +98,9 @@ git 命令，用于拉取各个系统模块
 
 **到这里，整个后台的部署已经成功了。接下来即可使用 badjs-report/example/index.html 进行测试验证上报。**
 
+### 关于上报的任何问题，可以点击下面的连接进行查看
+[report 介绍](https://github.com/BetterJS/badjs-report)
+[report 问题列表](https://github.com/BetterJS/badjs-report/issues)
 
 ##谁在用
 
