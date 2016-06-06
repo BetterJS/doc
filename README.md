@@ -103,7 +103,7 @@ git 命令，用于拉取各个系统模块
   - [report 问题列表](https://github.com/BetterJS/badjs-report/issues)
   
   
-# 百万PV 优化  
+## 百万PV 优化  
   - 参见 [#15 ](https://github.com/BetterJS/doc/issues/15) 
 
 ##谁在用
