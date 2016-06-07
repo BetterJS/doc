@@ -57,8 +57,6 @@ mysql 5.0+
 
 mongodb 3.0+
 
-pyton 2.7.x
-
 git 命令，用于拉取各个系统模块
 
 ## 部署
