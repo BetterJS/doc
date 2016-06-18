@@ -63,7 +63,7 @@ git 命令，用于拉取各个系统模块
 
 #### docker 部署
 
-badjs-docker ]( https://hub.docker.com/r/caihuijigood/badjs-docker/) 
+[badjs-docker]( https://hub.docker.com/r/caihuijigood/badjs-docker/) 
 ``` javascript 
    // 下载images
    docker pull caihuijigood/badjs-docker
