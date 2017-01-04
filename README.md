@@ -60,6 +60,8 @@ mongodb 3.0+
 git 命令，用于拉取各个系统模块
 
 ## 部署
+#### 腾讯云部署
+http://market.qcloud.com/products/1571
 
 #### docker 部署
 
