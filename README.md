@@ -74,7 +74,10 @@ http://market.qcloud.com/products/1571
  默认部署地址为：
  
  
- 默认已经关闭了邮件通知功能，需要开启的可以参考
+ 腾讯云部署的模块是没有邮件通知功能的，需要开启的可以参考
+ https://github.com/BetterJS/doc/blob/master/README.md#单机环境部署
+ 重新拉取完整版本
+ 
 ```
 
 
