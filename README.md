@@ -60,16 +60,23 @@ git 命令，用于拉取各个系统模块
 #### 腾讯云部署
 http://market.qcloud.com/products/1571
 
-1. 访问地址： 
-> http://xx.xx.xx.xx/8081   //管理端访问地址
-> http://xx.xx.xx.xx/badjs  // badjs 上报地址
+1. 访问地址：
+
+ > http://xx.xx.xx.xx/8081   //管理端访问地址
+ > http://xx.xx.xx.xx/badjs  // badjs 上报地址
+ 
 2.  默认已经部署了 mongodb 和 mysql
-> mongodb 没有密码 ，默认端口为 27017
-> mysql   root/root ，默认端口为 3306
+
+ > mongodb 没有密码 ，默认端口为 27017
+ > mysql   root/root ，默认端口为 3306
+ 
 3. 默认部署地址为：
-> /data/badjs/badjs-installer
+
+ > /data/badjs/badjs-installer
+ 
 4. 腾讯云部署的模块是没有邮件通知功能的，需要开启的部署完整版本：
-> https://github.com/BetterJS/doc/blob/master/README.md#单机环境部署
+
+ > https://github.com/BetterJS/doc/blob/master/README.md#单机环境部署
 
 #### docker 部署
 
