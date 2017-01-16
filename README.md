@@ -60,6 +60,8 @@ git 命令，用于拉取各个系统模块
 #### 腾讯云部署
 http://market.qcloud.com/products/1571
 
+部署完成后说明如下:
+
 1. 访问地址：
  - http://xx.xx.xx.xx/8081   //管理端访问地址
  - http://xx.xx.xx.xx/badjs  // badjs 上报地址
