@@ -63,7 +63,7 @@ http://market.qcloud.com/products/1571
 部署完成后说明如下:
 
 1. 访问地址：
- - http://xx.xx.xx.xx/8081   //管理端访问地址
+ - http://xx.xx.xx.xx:8081/   //管理端访问地址
  - http://xx.xx.xx.xx/badjs  // badjs 上报地址
 2.  默认已经部署了 mongodb 和 mysql
  - mongodb 没有密码 ，默认端口为 27017
