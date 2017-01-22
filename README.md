@@ -124,7 +124,7 @@ http://market.qcloud.com/products/1571
 1. 关于上报的任何问题，可以点击下面的链接进行查看
   - [report 介绍](https://github.com/BetterJS/badjs-report)
   - [report 问题列表](https://github.com/BetterJS/badjs-report/issues)
-  - [上报返回 403](https://github.com/BetterJS/doc/issues/18)
+  - [上报返回 403](https://github.com/BetterJS/doc/issues/18)
    
   
 ## 百万PV 优化  
