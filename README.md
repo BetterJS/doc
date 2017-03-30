@@ -1,6 +1,8 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BetterJS?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-#介绍
+
+##介绍
+
 >BadJS 是 web 前端脚本错误监控及跟踪解决方案。此项目为鹅厂 [imweb](http://imweb.io/)（qq群:179045421） 团队的开源项目。
 
 **项目亮点**
@@ -97,10 +99,10 @@ http://market.qcloud.com/products/1571
 
 #### 多机环境部署
 1. 下载各个模块的稳定版本
-  - https://codeload.github.com/BetterJS/badjs-acceptor/zip/v1.1.1
-  - https://codeload.github.com/BetterJS/badjs-mq/zip/v1.1.1
-  - https://codeload.github.com/BetterJS/badjs-web/zip/v1.3.0
-  - https://codeload.github.com/BetterJS/badjs-storage/zip/v1.3.0
+  - https://codeload.github.com/BetterJS/badjs-acceptor/zip/v1.2.0
+  - https://codeload.github.com/BetterJS/badjs-mq/zip/v1.2.0
+  - https://codeload.github.com/BetterJS/badjs-web/zip/v1.3.1
+  - https://codeload.github.com/BetterJS/badjs-storage/zip/v1.3.1
 2. 线上环境配置，请访问各个模块的页面的配置说明：
   - https://github.com/BetterJS/badjs-acceptor/blob/master/Readme.md
   - https://github.com/BetterJS/badjs-web/blob/master/Readme.md
