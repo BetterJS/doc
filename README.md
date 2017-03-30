@@ -1,6 +1,6 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BetterJS?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-##介绍
+#介绍
 >BadJS 是 web 前端脚本错误监控及跟踪解决方案。此项目为鹅厂 [imweb](http://imweb.io/)（qq群:179045421） 团队的开源项目。
 
 **项目亮点**
