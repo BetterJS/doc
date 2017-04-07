@@ -101,7 +101,7 @@ http://market.qcloud.com/products/1571
 1. 下载各个模块的稳定版本
   - https://codeload.github.com/BetterJS/badjs-acceptor/zip/v1.2.0
   - https://codeload.github.com/BetterJS/badjs-mq/zip/v1.2.0
-  - https://codeload.github.com/BetterJS/badjs-web/zip/v1.3.1
+  - https://codeload.github.com/BetterJS/badjs-web/zip/v1.3.2
   - https://codeload.github.com/BetterJS/badjs-storage/zip/v1.3.1
 2. 线上环境配置，请访问各个模块的页面的配置说明：
   - https://github.com/BetterJS/badjs-acceptor/blob/master/Readme.md
