@@ -1,7 +1,7 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BetterJS?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 
-##介绍
+## 介绍
 
 >BadJS 是 web 前端脚本错误监控及跟踪解决方案。此项目为鹅厂 [imweb](http://imweb.io/)（qq群:179045421） 团队的开源项目。
 
@@ -14,7 +14,7 @@
 5. 用户行为分析：细粒度追踪真实的用户行为操作及流程，前端崩溃、加载缓慢及错误问题，可关联到后端进行深度诊断。
 6. 产品质量的保障：浏览器百花齐放，用户环境复杂，巨大的差异导致开发人员难以重现用户遇到的问题。无法像后台一样上报所有用户操作日志。通过BadJS，上报用户端脚本错误，为产品质量保驾护航。
 
-##系统架构
+## 系统架构
 
 ![image](https://cloud.githubusercontent.com/assets/2292731/12427248/28530902-bf19-11e5-9884-551dc9442326.png)
 
@@ -49,7 +49,7 @@ badjs-openapi-client - 连接 badjs-mq 的客户端的类库
 
 
 
-##安装要求
+## 安装要求
 nodejs 0.12+
 
 mysql 5.0+
@@ -111,7 +111,7 @@ http://market.qcloud.com/products/1571
 3. 用 forever 或 nohub 启动各个模块
 
 
-##如何使用
+## 如何使用
 1. 在 http://127.0.0.1:8081/index.html 上会有介绍。
 2. 安装完成后，使用默认的超级帐号 admin/admin 进入
 3. 登录成功后，点击右上角的“我的业务”进入管理界面，点击"申请业务"
@@ -132,7 +132,7 @@ http://market.qcloud.com/products/1571
 ## 百万PV 优化  
   - 参见 [#15 ](https://github.com/BetterJS/doc/issues/15) 
 
-##谁在用
+## 谁在用
 
 ![ke.qq.com](https://cloud.githubusercontent.com/assets/2292731/10385573/5d4c5114-6e7d-11e5-9aed-21c36453c9ee.png)
 
