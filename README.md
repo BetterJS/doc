@@ -60,7 +60,7 @@ git 命令，用于拉取各个系统模块
 
 ## 部署
 #### 腾讯云部署
-http://market.qcloud.com/products/1571
+https://market.cloud.tencent.com/products/3369
 
 部署完成后说明如下:
 
